@@ -1,0 +1,17 @@
+.small-logo {
+    display: none;
+  }
+  
+  .logo {
+    display: block;
+  }
+  
+  @media (max-width: 1130px) {
+    .small-logo {
+      display: block;
+    }
+    .logo {
+      display: none;
+    }
+  }
+  
