@@ -4,11 +4,12 @@ import Image from "next/image";
 import "../styles/navbar.css";
 import SerachFilter from "./SerachFilter";
 import UserNav from "./NavMenu";
+import AddHost from "./AddHost";
 
 export default function Navbar() {
   return (
     <div className="w-full fixed left-0 top-0 bg-white border-b z-20">
-      <div className="mx-auto px-[40px] 2xl:px-[80px]">
+      <div className="mx-auto sm:px-[40px] 2xl:px-[80px]">
         <div className="flex justify-between items-center h-[80px]">
           <>
             <div className="logo">
@@ -21,7 +22,7 @@ export default function Navbar() {
                 />
               </Link>
             </div>
-            <div className="small-logo">
+            <div className="small-logo pl-5 sm:0">
               <Link href="/">
                 <Image
                   src={"/logo/airbnb-sm.svg"}
@@ -36,13 +37,13 @@ export default function Navbar() {
           <div className="hidden xl:block w-[400px] h-[48px] px-[24px] border mx-auto">
             stay1
           </div>
-          <div className="mx-[40px] flex items-center sm:hidden">
+          <div className="flex items-center sm:hidden">
             <SerachFilter />
           </div>
 
-          <div>
-            add property
-            <UserNav/>
+          <div className="flex items-cente mr-5">
+            <AddHost />
+            <UserNav />
           </div>
         </div>
       </div>

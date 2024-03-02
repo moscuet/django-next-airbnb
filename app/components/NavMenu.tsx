@@ -7,8 +7,8 @@ const NavMenu = () => {
         <Image
           src={"/icon/menu.svg"}
           alt="menu-icon"
-          width={20}
-          height={20}
+          width={16}
+          height={16}
         />
           <Image
           src={"/icon/user.svg"}
