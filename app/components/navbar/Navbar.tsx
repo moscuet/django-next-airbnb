@@ -1,15 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import "../styles/navbar.css";
+import "../../styles/navbar.css";
 import SerachFilter from "./SerachFilter";
 import UserNav from "./NavMenu";
 import AddHost from "./AddHost";
 
 export default function Navbar() {
   return (
-    <div className="w-full fixed left-0 top-0 bg-white border-b z-20">
-      <div className="mx-auto sm:px-[40px] 2xl:px-[80px]">
+    <div style={{border:'1px solid red'}} className="w-full text fixed left-0 top-0 bg-white border-b z-20">
+      <div  className="mx-auto max-w-[1680px] px-5 sm:px-[40px] 3xl:px-[80px]">
         <div className="flex justify-between items-center h-[80px]">
           <>
             <div className="logo">
@@ -22,7 +22,7 @@ export default function Navbar() {
                 />
               </Link>
             </div>
-            <div className="small-logo pl-5 sm:0">
+            <div className="small-logo  sm:0">
               <Link href="/">
                 <Image
                   src={"/logo/airbnb-sm.svg"}
@@ -41,7 +41,7 @@ export default function Navbar() {
             <SerachFilter />
           </div>
 
-          <div className="flex items-cente mr-5">
+          <div className="flex items-cente">
             <AddHost />
             <UserNav />
           </div>

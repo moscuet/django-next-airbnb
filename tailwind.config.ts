@@ -13,9 +13,13 @@ const config: Config = {
         'air-bnb-dark':'#d50027'
       },
       screens: {
-        '2xl': '1440px',
+        'xs':'550px',
+        'lg':'930px',
         'xl':'950px',
-        'lg':'930px'
+        '2xl': '1130px',
+        '3xl': '1440px',
+        '4xl': '1540px',
+        '5xl': '1640px',
       },
       fontSize: {
         'xs': '12px', 
