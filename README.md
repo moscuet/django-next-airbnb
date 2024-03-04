@@ -3,7 +3,7 @@
   <br/>
   <a href="https://yourliveappurl.com"><kbd>🟢 Live App</kbd></a>
   <br/>
-  <span>Digital Ocean Deployment</span> | <span>Web Sockets</span>
+  <span>Netlify</span> | <span>Web Sockets</span>
 </p>
 
 # Airbnb Clone Full Stack Development Series
