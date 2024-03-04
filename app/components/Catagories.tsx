@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Catagories = () => {
   return (
-    <div style={{border:'2px solid green'}} className="font-size- flex justify-center h-[74] sm:h-[78px] sm:mt-[12px] gap-3 sm:gap-5">
+    <div className="font-size- flex justify-center h-[74] sm:h-[78px] gap-3 sm:gap-5">
       <div className="flex flex-col items-center justify-center border border-white border-b-2 opacity-60 hover:opacity-100 hover:border-b-gray-200 cursor-pointer">
         <Image
           src="/icon/castle.jpeg"
