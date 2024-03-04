@@ -1,39 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,django,docker,postgresql" />
+  <br/>
+  <a href="https://yourliveappurl.com"><kbd>🟢 Live App</kbd></a>
+  <br/>
+  <span>Digital Ocean Deployment</span> | <span>Web Sockets</span>
+</p>
 
-## Getting Started
+# Airbnb Clone Full Stack Development Series
 
-First, run the development server:
+Building a full-stack Airbnb clone from scratch. This project leverages the power of modern web technologies including Next.js 14, React, Tailwind CSS for the frontend, and Django with Django REST Framework for the backend. You'll also get hands-on experience with Docker Compose for containerization and PostgreSQL for database management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Implemention
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 14 & React**: latest features of Next.js and React for building dynamic user interfaces.
+- **Tailwind CSS**: Implement responsive designs effortlessly with Tailwind CSS.
+- **Django & Django REST Framework**: Build robust backend logic and RESTful APIs with Django.
+- **Docker Compose**: Simplify development workflows with containerization.
+- **PostgreSQL**: Learn to manage and query relational databases effectively.
+- **Deployment to Digital Ocean**: Gain practical experience in deploying full-stack applications to a cloud provider.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔥 Features in This Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Fully Responsive Design**: Crafted with Tailwind CSS, ensuring that the application looks great on any device.
+- **Authentication**: Utilize Django Allauth for secure email login functionality.
+- **Date Range Selection**: Learn to implement a booking feature using `react-date-range` and other React packages.
+- **Image Upload**: Discover how to upload images using the `fetch` API in conjunction with your backend.
+- **Live Chat**: Implement real-time communication between users with web sockets for a live chat feature.
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is built using a combination of powerful technologies, ensuring both performance and scalability:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Frontend**: Developed with Next.js 14 for server-side rendering and React for interactive UIs, styled with Tailwind CSS.
+- **Backend**: Django powered by Django REST Framework for backend logic and API development, with user authentication managed by Django Allauth.
+- **Database**: PostgreSQL for data storage, managed through Django's ORM.
+- **DevOps**: Docker Compose for development environment management and deployment to Digital Ocean for hosting.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br/>
 
 
-# https://heroicons.com/
+### Resources
+- SVG ICON : https://heroicons.com/
