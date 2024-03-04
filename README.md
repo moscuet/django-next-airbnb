@@ -6,9 +6,9 @@
   <span>Netlify</span> | <span>Web Sockets</span>
 </p>
 
-# Airbnb Clone Full Stack Development Series
+# Airbnb Clone: NextJS and Django
 
-Building a full-stack Airbnb clone from scratch. This project leverages the power of modern web technologies including Next.js 14, React, Tailwind CSS for the frontend, and Django with Django REST Framework for the backend. You'll also get hands-on experience with Docker Compose for containerization and PostgreSQL for database management.
+Building a full-stack Airbnb clone from scratch using the power of modern web technologies including Next.js 14, React, Tailwind CSS for the frontend, and Django with Django REST Framework for the backend. You'll also get hands-on experience with Docker Compose for containerization and PostgreSQL for database management.
 
 ## 🌟 Implemention
 
