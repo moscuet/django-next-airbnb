@@ -43,3 +43,26 @@ This project is built using a combination of powerful technologies, ensuring bot
 
 ### Resources
 - SVG ICON : https://heroicons.com/
+
+
+
+
+### Notes
+
+Aspect ration with tail winds
+
+
+tailwind.config.ts
+
+´´´
+ extend: {
+      aspectRatio: {
+        '3/4': '3 / 4',
+      }
+´´´
+
+use
+    <div className="aspect-3/2 ">Test div</div>
+´´´
+
+´´´
