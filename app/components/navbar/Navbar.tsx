@@ -8,7 +8,7 @@ import AddHost from "./AddHost";
 
 export default function Navbar() {
   return (
-    <div style={{border:'1px solid red'}} className="w-full text fixed left-0 top-0 bg-white border-b z-20">
+    <div className="w-full text fixed left-0 top-0 bg-white border-b z-20">
       <div  className="mx-auto max-w-[1680px] px-5 sm:px-[40px] 3xl:px-[80px]">
         <div className="flex justify-between items-center h-[80px]">
           <>
